@@ -1,0 +1,21 @@
+{
+    "cards": [{
+            "id": 1,
+            "name": "clement-fusil",
+            "details": "lorem ipsum dolor sit amet, ihkjg lkn,lj lkgs",
+            "src": "./public/images/clement-fusil"
+        },
+        {
+            "id": 2,
+            "name": "laura-smetsers",
+            "details": "lorem ipsum dolor sit amet, laura-smetsers lkn,lj lkgs",
+            "src": "./public/images/laura-smetsers"
+        },
+        {
+            "id": 3,
+            "name": "roberto-nickson",
+            "details": "lorem ipsum dolor sit amet, ihkjg lkn,lj lkgs",
+            "src": "./public/images/roberto-nickson"
+        }
+    ]
+}
