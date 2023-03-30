@@ -28,9 +28,9 @@ export default {
     }
   },
   created() {
-    CardService.getCardbyId(this.id)
+    CardService.getCardbyId(this.id ? this.id : Math.floor(Math.random() * 12))
     .then(response => this.card = response.data)
-    .catch(error => {console.log(error.response)})
+    .catch(error => { console.log(error.response)})
   }
 }
 </script>
