@@ -25,7 +25,6 @@ export default {
     CardService.getCards()
     .then(r => {
       this.cards = r.data
-      console.log(this.cards)
     })
     .catch(error => console.error(error.message))
   }
