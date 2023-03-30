@@ -1,15 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import GalleryView from "../views/GalleryView.vue";
 import DetailsView from "../views/DetailsView.vue";
-import NotFound from "../views/NotFound.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [{
         path: '*',
-        component: NotFound,
+        component: NotFoundView,
     },
     {
         path: "/",
